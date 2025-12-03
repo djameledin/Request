@@ -80,9 +80,7 @@ end setWallpaper
 
 
 -- Main Execution
-
 set optimization to optimizeSystem()
-
 setTheme()
 if desktopItems of optimization > 0 then
 	cleanDesktop({"Applications", "Utilities"})
